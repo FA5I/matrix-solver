@@ -17,10 +17,10 @@ class Solver {
     let p_inv_b = permutation.matMatMult(b);
 
     // calculate the y values using forward substitution
-    let y_values = this.forwardSubstitution(lower_tri, p_inv_b); // memory cleared
+    let y_values = this.forwardSubstitution(lower_tri, p_inv_b);
 
     // calculate the solution using back substitution and the y values we calculated earlier
-    let solution = this.backSubstitution(upper_tri, y_values); // return at end of function
+    let solution = this.backSubstitution(upper_tri, y_values);
 
     return solution;
   }
@@ -177,7 +177,6 @@ class Solver {
   }
 
   forwardSubstitution(lhs, b) {
-    // console.log("lhs", lhs.values, "b", b.values);
     // check if A is square
     if (lhs.rows !== lhs.cols) {
       throw "Input matrix must be square!";
@@ -206,8 +205,6 @@ class Solver {
       // adjust the values in the solution vector
       solution.values[k] = (b.values[k] - s) / lhs.values[k * lhs.cols + k];
     }
-
-    // console.log("forward sub", solution);
 
     return solution;
   }
