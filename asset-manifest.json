@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/matrix-solver/static/css/main.cac9b802.chunk.css",
-    "main.js": "/matrix-solver/static/js/main.cf924085.chunk.js",
-    "main.js.map": "/matrix-solver/static/js/main.cf924085.chunk.js.map",
+    "main.js": "/matrix-solver/static/js/main.04753d07.chunk.js",
+    "main.js.map": "/matrix-solver/static/js/main.04753d07.chunk.js.map",
     "runtime-main.js": "/matrix-solver/static/js/runtime-main.3d15d7be.js",
     "runtime-main.js.map": "/matrix-solver/static/js/runtime-main.3d15d7be.js.map",
     "static/js/2.fdd8efa2.chunk.js": "/matrix-solver/static/js/2.fdd8efa2.chunk.js",
     "static/js/2.fdd8efa2.chunk.js.map": "/matrix-solver/static/js/2.fdd8efa2.chunk.js.map",
     "index.html": "/matrix-solver/index.html",
-    "precache-manifest.03fac1c1bb7992e04d03ebe63048b7f3.js": "/matrix-solver/precache-manifest.03fac1c1bb7992e04d03ebe63048b7f3.js",
+    "precache-manifest.63762e0664ab040d05e4c055127b5f8b.js": "/matrix-solver/precache-manifest.63762e0664ab040d05e4c055127b5f8b.js",
     "service-worker.js": "/matrix-solver/service-worker.js",
     "static/css/main.cac9b802.chunk.css.map": "/matrix-solver/static/css/main.cac9b802.chunk.css.map",
     "static/js/2.fdd8efa2.chunk.js.LICENSE.txt": "/matrix-solver/static/js/2.fdd8efa2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3d15d7be.js",
     "static/js/2.fdd8efa2.chunk.js",
     "static/css/main.cac9b802.chunk.css",
-    "static/js/main.cf924085.chunk.js"
+    "static/js/main.04753d07.chunk.js"
   ]
 }

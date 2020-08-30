@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09947aea91ce099ab637c5231c7686c1",
+    "revision": "58912601bc252bdfd5a15eec26562415",
     "url": "/matrix-solver/index.html"
   },
   {
-    "revision": "373ad5e8a034d4014fef",
+    "revision": "fd01a1dfb3fb8ad65e00",
     "url": "/matrix-solver/static/css/main.cac9b802.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/matrix-solver/static/js/2.fdd8efa2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "373ad5e8a034d4014fef",
-    "url": "/matrix-solver/static/js/main.cf924085.chunk.js"
+    "revision": "fd01a1dfb3fb8ad65e00",
+    "url": "/matrix-solver/static/js/main.04753d07.chunk.js"
   },
   {
     "revision": "064f67261f4adf5a1335",
