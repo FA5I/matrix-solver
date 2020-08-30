@@ -1,0 +1,135 @@
+.App {
+  min-width: 900px;
+  margin: auto;
+  text-align: center;
+  /* background: grey; */
+}
+
+nav {
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 5px solid #c0c0c0;
+  margin-bottom: 40px;
+}
+
+nav a {
+  float: left;
+  /* color: #F5F5F5; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav a.active {
+  /* background-color: blue; */
+  /* color: white; */
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  border-top: 5px solid #c0c0c0;
+  border-bottom: 5px solid #c0c0c0;
+  padding: 10px;
+  max-width: 20%;
+  margin: auto;
+}
+
+.description {
+  max-width: 6 00px;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 4fr;
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 10px;
+  justify-items: center;
+  justify-content: space-between;
+  grid-template-areas: "matrix variables equalsign rhs .";
+}
+
+.matrix {
+  grid-area: matrix;
+  justify-self: right;
+  margin-right: 10px;
+}
+
+.variables {
+  grid-area: variables;
+  display: grid;
+  justify-self: center;
+}
+
+.variables input {
+  background: rgb(189, 189, 189);
+}
+
+.equalsign {
+  grid-area: equalsign;
+  display: grid;
+  justify-self: center;
+  font-size: 50px;
+  align-items: center;
+}
+
+.rhs {
+  grid-area: rhs;
+  display: grid;
+  justify-self: center;
+  margin-right: 20px;
+}
+
+.cell {
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f8ff;
+}
+
+.inputs input {
+  padding: 10px;
+}
+
+.inputs button {
+  display: inline;
+  margin: 10px 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* font-size: 16px; */
+}
+
+.reset-button {
+  background-color: red !important;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.dimensions {
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
