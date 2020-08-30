@@ -1,6 +1,6 @@
 const Matrix = require("./Matrix");
 
-module.exports = class Solver {
+class Solver {
   solveLU(lhs, b) {
     // construct LU decomposition of the lhs matrix - lhs gives us the permutation
     let plu = this.luDecompositionPivot(lhs);
@@ -211,4 +211,6 @@ module.exports = class Solver {
 
     return solution;
   }
-};
+}
+
+export default Solver;
