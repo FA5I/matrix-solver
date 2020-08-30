@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/matrix-solver/static/css/main.8a5045cf.chunk.css",
-    "main.js": "/matrix-solver/static/js/main.88d872fe.chunk.js",
-    "main.js.map": "/matrix-solver/static/js/main.88d872fe.chunk.js.map",
+    "main.js": "/matrix-solver/static/js/main.edd56762.chunk.js",
+    "main.js.map": "/matrix-solver/static/js/main.edd56762.chunk.js.map",
     "runtime-main.js": "/matrix-solver/static/js/runtime-main.3d15d7be.js",
     "runtime-main.js.map": "/matrix-solver/static/js/runtime-main.3d15d7be.js.map",
-    "static/js/2.b5aa2b68.chunk.js": "/matrix-solver/static/js/2.b5aa2b68.chunk.js",
-    "static/js/2.b5aa2b68.chunk.js.map": "/matrix-solver/static/js/2.b5aa2b68.chunk.js.map",
+    "static/js/2.c9183cb8.chunk.js": "/matrix-solver/static/js/2.c9183cb8.chunk.js",
+    "static/js/2.c9183cb8.chunk.js.map": "/matrix-solver/static/js/2.c9183cb8.chunk.js.map",
     "index.html": "/matrix-solver/index.html",
-    "precache-manifest.f765f1434f40cc32c1a1fb4fadb79a1c.js": "/matrix-solver/precache-manifest.f765f1434f40cc32c1a1fb4fadb79a1c.js",
+    "precache-manifest.f80882da0d6201bed1f3d3a253699467.js": "/matrix-solver/precache-manifest.f80882da0d6201bed1f3d3a253699467.js",
     "service-worker.js": "/matrix-solver/service-worker.js",
     "static/css/main.8a5045cf.chunk.css.map": "/matrix-solver/static/css/main.8a5045cf.chunk.css.map",
-    "static/js/2.b5aa2b68.chunk.js.LICENSE.txt": "/matrix-solver/static/js/2.b5aa2b68.chunk.js.LICENSE.txt"
+    "static/js/2.c9183cb8.chunk.js.LICENSE.txt": "/matrix-solver/static/js/2.c9183cb8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d15d7be.js",
-    "static/js/2.b5aa2b68.chunk.js",
+    "static/js/2.c9183cb8.chunk.js",
     "static/css/main.8a5045cf.chunk.css",
-    "static/js/main.88d872fe.chunk.js"
+    "static/js/main.edd56762.chunk.js"
   ]
 }
