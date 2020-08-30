@@ -1,6 +1,7 @@
 import Matrix from "./Matrix";
 
 class Solver {
+  /** A function that solves a system of equations using LU Decomposition. */
   solveLU(lhs, b) {
     // construct LU decomposition of the lhs matrix - lhs gives us the permutation
     let plu = this.luDecompositionPivot(lhs);
@@ -25,6 +26,7 @@ class Solver {
     return solution;
   }
 
+  /** Performs LU Decomposition with partial pivoting. */
   luDecompositionPivot(lhs) {
     // make sure the matrix is square
     if (lhs.cols !== lhs.rows) {
@@ -91,6 +93,7 @@ class Solver {
     return [permutation, lower_tri, A];
   }
 
+  /** Constructs an upper triangular matrix */
   upperTriangular(lhs, b) {
     // check if A is square
     if (lhs.rows !== lhs.cols) {
@@ -141,6 +144,7 @@ class Solver {
     }
   }
 
+  /** Performs back substitution.  */
   backSubstitution(lhs, b) {
     // check if A is square
     if (lhs.rows !== lhs.cols) {
@@ -176,6 +180,7 @@ class Solver {
     return solution;
   }
 
+  /** Performs forward substitution. */
   forwardSubstitution(lhs, b) {
     // check if A is square
     if (lhs.rows !== lhs.cols) {

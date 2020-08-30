@@ -6,10 +6,12 @@ class Matrix {
     this.values = new Array(this.size).fill(0);
   }
 
+  /** Prints the values of a matrix to the the console. */
   printValues() {
     console.log(JSON.stringify(this.values));
   }
 
+  /** Swaps two rows, at indices i and j with each other. */
   swapRows(i, j) {
     // no swap required
     if (i == j) {
@@ -33,7 +35,7 @@ class Matrix {
     }
   }
 
-  // assumes user has already created mat_right and output matrices
+  /** performs matrix-matrix multiplication. */
   matMatMult(mat_right) {
     // check dimensions make sense return without doing any multiplication
     if (this.cols !== mat_right.rows) {
@@ -43,11 +45,7 @@ class Matrix {
     // create an output matrix that will hold our values
     let output = new Matrix(this.rows, mat_right.cols);
 
-    /*======================================
-     *  matrix multiplication is O(n^3).
-     *  Although this loop ordering takes advantage of caching, it
-     *  does not take advantage of BLAS routines (for row by row access).
-     *======================================*/
+    // matrix multiplication is O(n^3).
     for (let i = 0; i < this.rows; i++) {
       for (let k = 0; k < this.cols; k++) {
         for (let j = 0; j < mat_right.cols; j++) {
@@ -61,6 +59,7 @@ class Matrix {
     return output;
   }
 
+  /** transposes a matrix. */
   transpose() {
     // create a new values array to hold the data
     let new_values = new Array(this.size).fill(0);
