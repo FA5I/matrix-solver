@@ -1,4 +1,4 @@
-const Matrix = require("./matrix");
+const Matrix = require("./Matrix");
 
 module.exports = class Solver {
   solveLU(lhs, b) {

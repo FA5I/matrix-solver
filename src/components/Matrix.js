@@ -1,4 +1,4 @@
-module.exports = class Matrix {
+class Matrix {
   constructor(rows, cols) {
     this.rows = parseInt(rows);
     this.cols = parseInt(cols);
@@ -76,4 +76,6 @@ module.exports = class Matrix {
     this.cols = temp;
     this.values = new_values;
   }
-};
+}
+
+export default Matrix;

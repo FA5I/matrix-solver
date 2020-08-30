@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-const Matrix = require("./matrix");
-const Solver = require("./solver");
+import Matrix from "./components/Matrix";
+const Solver = require("./components/Solver");
 
 function Cell(props) {
   let style = {};
